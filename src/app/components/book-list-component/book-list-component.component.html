@@ -1,0 +1,16 @@
+<div class="book-list-component">
+  <h3>book-list-component</h3>
+  <p>Tis is a test fetch done with observables.</p>
+  <table>
+    <tr>
+      <th>Post Id</th>
+      <th>Name</th>
+    </tr>
+    <tr *ngFor="let com of books">
+      <td>{{com.title}}</td>
+      <td>{{com.author}}</td>
+      <td><button routerLink="/books/{{com.isbn}}">View</button></td>
+      <td><button routerLink="/books-rent/{{com.isbn}}">Rent</button></td>
+    </tr>
+  </table>
+</div>

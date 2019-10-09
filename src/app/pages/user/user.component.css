@@ -1,0 +1,15 @@
+.container-flex-user-page {
+  display: flex;
+  flex: wrap;
+  flex-direction: row;
+
+}
+
+.book-list-component {
+  width: 50%;
+}
+
+.users-details-component {
+  background-color: #00FFFF;
+  width: 50%;
+}
